@@ -24,6 +24,8 @@ when "portforward"
   require_relative("portforward")
 when "users"
   require_relative("users")
+when "pushroutes"
+  require_relative("pushroutes")
 else
   abort("Unrecognised option")
 end
